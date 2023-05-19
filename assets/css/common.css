@@ -1,0 +1,117 @@
+.blind{
+    width: 1px; height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    position: absolute;
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+/* header */
+ .link-ad .ic-kakao{
+  background: url(../img/Icon_kakao_channel.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+ }
+
+ .link-ad .ic-arrow{
+    background: url(../img/arrow_wh.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+ }
+
+ /* txt-area */
+ .sc-product .txt-area,
+ .sc-recomm .txt-area{
+    padding: 0 28px;
+ }
+.txt-area .review{
+    display: block;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 400;
+    color: #8e1f29;
+    font-weight: 600;
+}
+.txt-area .name{
+    width: 100%;
+    margin: 10px 0;
+    font-size: 14px;
+    letter-spacing: -0.05em;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    line-height: 17px;
+    word-wrap: break-word;
+    -webkit-box-orient: vertical;
+}
+.txt-area .price-box{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 17px;
+    flex-wrap: wrap;
+}
+.txt-area .price-box .discount{
+    color: #8E1F29;
+    font-weight: 500;
+    margin-right: 5px;
+    
+}
+.txt-area .price-box .price{
+    font-size: 15px;
+    line-height: 16px;
+    font-weight: 500;
+    letter-spacing: -0.03em;
+}
+.txt-area .price-box .price.grey{
+    font-size: 13px;
+    line-height: 18px;
+    color: #8d8d8d;
+    text-decoration: line-through;
+    margin-left: 5px;
+    font-weight: 400;
+}
+.txt-area .badge{
+    display: inline-block;
+    font-size: 9px;
+    line-height: 9px;
+    font-weight: 500;
+    letter-spacing: -0.05em;
+    
+    color: #8e1f28;
+    border: 1px solid rgba(142,31,41,0.5);
+    padding: 5px 6px;
+    margin-bottom: 5px;
+}
+
+/* category-list */
+
+.category-item{
+    font-size: 16px;
+    margin-right: 10px;
+    line-height: 23px;
+    letter-spacing: -0.05em;
+    display: block;
+}
+.category-item .bullet::after{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #ee5728;
+    display: inline-block;
+    content: "";
+    position: relative;
+    top: -8px;
+    right: -2px;
+}
+
+.group-bottom .category-item .bullet.none{
+    display: none;
+}
